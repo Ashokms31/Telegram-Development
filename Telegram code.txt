@@ -41,3 +41,5 @@ Output:
 Enter the number
 12345
 The reverse number is 54321
+54321
+The reverse number is 12345
