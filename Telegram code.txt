@@ -1,0 +1,43 @@
+This is code for telegram chat application
+1.Find the Factorial of the given number
+
+Program:
+public class Factorial {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int n = sc.nextInt();
+		int factorial = 1;
+		for (int i = 1; i <= n; i++) {
+			factorial = factorial * i;
+		}
+		System.out.println(factorial);
+	}
+}
+Output:
+Enter the number
+5
+120
+
+2. Find the reverse of the number
+
+Program:
+public class ReverseTheNumber {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int n = sc.nextInt();
+		int a, i = 0, j = 0;
+		a = n;
+		while (a > 0) {
+			i = a % 10;
+			j = (j * 10) + i;
+			a = a / 10;
+		}
+		System.out.println("The reverse number is " + j);
+	}
+}
+Output:
+Enter the number
+12345
+The reverse number is 54321
